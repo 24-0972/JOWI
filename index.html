@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to JOWI Comic Gallery</title>
+
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color:black;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            background: linear-gradient(45deg, white, white);
+            color: pink;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .item {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+            padding: 10px;
+            transition: transform 0.2s ease;
+        }
+
+        .item:hover {
+            transform: scale(1.05);
+        }
+
+        img, video, iframe {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        p {
+            margin-top: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1> Welcome to JOWI Comic Gallery </h1>
+
+    <div class="gallery">
+
+        <!-- IMAGES -->
+        <div class="item">
+            <img src="C:\Users\user\Downloads\Fun Revealed_ Ultimate Would You Rather Choices!.jpg" alt="Image 1">
+            <p> Image 1</p>
+        </div>
+
+        <div class="item">
+            <img src="C:\Users\user\Downloads\download (3).jpg" alt="Image 2">
+            <p> Image 2</p>
+        </div>
+
+        <div class="item">
+            <img src="c:\Users\user\Downloads\humpty dumpty.jpg" alt="Image 3">
+            <p> Image 3</p>
+        </div>
+
+        <div class="item">
+            <img src="C:\Users\user\Downloads\grand master whoo_.jpg" alt="Image 4">
+            <p> Image 4</p>
+        </div>
+
+        <!-- MEMES -->
+        <div class="item">
+            <img src="C:\Users\user\Downloads\download.jpg" alt="Meme 1">
+            <p> Meme 1 😂</p>
+        </div>
+
+        <div class="item">
+            <img src="C:\Users\user\Downloads\download (1).jpg" alt="Meme 2">
+            <p> Meme 2 🤣</p>
+        </div>
+
+        <div class="item">
+            <img src= "C:\Users\user\Downloads\17 Aggravating Memes For The Disgruntled Customer Service Worker.jpg" alt="Meme3">
+            <p> Meme 3 </p>
+
+           </div>
+           <div class="item">
+            <img src= "C:\Users\user\Downloads\ChatGPT 👌.jpg" alt="Meme4">
+            <p> Meme 4</p>
+           </div>
+
+
+        <!-- YOUTUBE VIDEOS -->
+         
+ <div class="item">
+            <iframe src="https://www.youtube.com/embed/X_4EJZ4aors"
+                    title="YouTube Video 1"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+            <p>YouTube Video #1</p>
+        </div>
+
+        <div class="item">
+            <iframe src="https://www.youtube.com/embed/arxJe46tk3Q"
+                    title="YouTube Video 2"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+            <p>YouTube Video #2</p>
+        </div>
+
+        <div class="item">
+            <iframe src="https://www.youtube.com/embed/bZPXGkVJ47s"
+                    title="YouTube Video 3"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+            <p>YouTube Video #3</p>
+        </div>
+
+        <div class="item">
+            <iframe src="https://www.youtube.com/embed/2v3mLxd2FfA"
+                    title="YouTube Video 4"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+            <p>YouTube Video #4</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
